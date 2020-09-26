@@ -1,0 +1,26 @@
+{
+  "name": "socialapi",
+  "version": "1.0.0",
+  "description": "An API for a social network application",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.0",
+    "mongoose": "^5.10.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevelopedByDay/socialapi.git"
+  },
+  "author": "DevelopedByDay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevelopedByDay/socialapi/issues"
+  },
+  "homepage": "https://github.com/DevelopedByDay/socialapi#readme"
+}
