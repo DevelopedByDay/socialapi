@@ -12,9 +12,9 @@ const UserSchema = new Schema({
         type: String,
         unique: true,
         required: "You must enter a unique email address!",
-        match: `/.+\@.+\..+/`
+        match: [/.+@.+\..+/, 'Must match a valid email address!'],
     },
-    throughts: [
+    thoughts: [
         {
             type: Schema.Types.ObjectId,
             ref: 'Thought'
